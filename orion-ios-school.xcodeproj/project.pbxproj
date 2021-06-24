@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5800441C2684BFEB00A69668 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800441B2684BFEB00A69668 /* AppDelegate.swift */; };
+		5800441E2684BFEB00A69668 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800441D2684BFEB00A69668 /* SceneDelegate.swift */; };
+		580044202684BFEB00A69668 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800441F2684BFEB00A69668 /* ViewController.swift */; };
+		580044232684BFEB00A69668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580044212684BFEB00A69668 /* Main.storyboard */; };
+		580044252684BFEC00A69668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580044242684BFEC00A69668 /* Assets.xcassets */; };
+		580044282684BFEC00A69668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580044262684BFEC00A69668 /* LaunchScreen.storyboard */; };
+		580044332684BFEC00A69668 /* orion_ios_schoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580044322684BFEC00A69668 /* orion_ios_schoolTests.swift */; };
+		5800443E2684BFED00A69668 /* orion_ios_schoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5800443D2684BFED00A69668 /* orion_ios_schoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5800442F2684BFEC00A69668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580044102684BFEB00A69668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580044172684BFEB00A69668;
+			remoteInfo = "orion-ios-school";
+		};
+		5800443A2684BFED00A69668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580044102684BFEB00A69668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580044172684BFEB00A69668;
+			remoteInfo = "orion-ios-school";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580044182684BFEB00A69668 /* orion-ios-school.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "orion-ios-school.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5800441B2684BFEB00A69668 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5800441D2684BFEB00A69668 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5800441F2684BFEB00A69668 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		580044222684BFEB00A69668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580044242684BFEC00A69668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580044272684BFEC00A69668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580044292684BFEC00A69668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5800442E2684BFEC00A69668 /* orion-ios-schoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "orion-ios-schoolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		580044322684BFEC00A69668 /* orion_ios_schoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orion_ios_schoolTests.swift; sourceTree = "<group>"; };
+		580044342684BFEC00A69668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580044392684BFED00A69668 /* orion-ios-schoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "orion-ios-schoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5800443D2684BFED00A69668 /* orion_ios_schoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orion_ios_schoolUITests.swift; sourceTree = "<group>"; };
+		5800443F2684BFED00A69668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580044152684BFEB00A69668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5800442B2684BFEC00A69668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580044362684BFED00A69668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5800440F2684BFEB00A69668 = {
+			isa = PBXGroup;
+			children = (
+				5800441A2684BFEB00A69668 /* orion-ios-school */,
+				580044312684BFEC00A69668 /* orion-ios-schoolTests */,
+				5800443C2684BFED00A69668 /* orion-ios-schoolUITests */,
+				580044192684BFEB00A69668 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580044192684BFEB00A69668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580044182684BFEB00A69668 /* orion-ios-school.app */,
+				5800442E2684BFEC00A69668 /* orion-ios-schoolTests.xctest */,
+				580044392684BFED00A69668 /* orion-ios-schoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5800441A2684BFEB00A69668 /* orion-ios-school */ = {
+			isa = PBXGroup;
+			children = (
+				5800441B2684BFEB00A69668 /* AppDelegate.swift */,
+				5800441D2684BFEB00A69668 /* SceneDelegate.swift */,
+				5800441F2684BFEB00A69668 /* ViewController.swift */,
+				580044212684BFEB00A69668 /* Main.storyboard */,
+				580044242684BFEC00A69668 /* Assets.xcassets */,
+				580044262684BFEC00A69668 /* LaunchScreen.storyboard */,
+				580044292684BFEC00A69668 /* Info.plist */,
+			);
+			path = "orion-ios-school";
+			sourceTree = "<group>";
+		};
+		580044312684BFEC00A69668 /* orion-ios-schoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				580044322684BFEC00A69668 /* orion_ios_schoolTests.swift */,
+				580044342684BFEC00A69668 /* Info.plist */,
+			);
+			path = "orion-ios-schoolTests";
+			sourceTree = "<group>";
+		};
+		5800443C2684BFED00A69668 /* orion-ios-schoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5800443D2684BFED00A69668 /* orion_ios_schoolUITests.swift */,
+				5800443F2684BFED00A69668 /* Info.plist */,
+			);
+			path = "orion-ios-schoolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580044172684BFEB00A69668 /* orion-ios-school */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580044422684BFED00A69668 /* Build configuration list for PBXNativeTarget "orion-ios-school" */;
+			buildPhases = (
+				580044142684BFEB00A69668 /* Sources */,
+				580044152684BFEB00A69668 /* Frameworks */,
+				580044162684BFEB00A69668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "orion-ios-school";
+			productName = "orion-ios-school";
+			productReference = 580044182684BFEB00A69668 /* orion-ios-school.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5800442D2684BFEC00A69668 /* orion-ios-schoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580044452684BFED00A69668 /* Build configuration list for PBXNativeTarget "orion-ios-schoolTests" */;
+			buildPhases = (
+				5800442A2684BFEC00A69668 /* Sources */,
+				5800442B2684BFEC00A69668 /* Frameworks */,
+				5800442C2684BFEC00A69668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580044302684BFEC00A69668 /* PBXTargetDependency */,
+			);
+			name = "orion-ios-schoolTests";
+			productName = "orion-ios-schoolTests";
+			productReference = 5800442E2684BFEC00A69668 /* orion-ios-schoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580044382684BFED00A69668 /* orion-ios-schoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580044482684BFED00A69668 /* Build configuration list for PBXNativeTarget "orion-ios-schoolUITests" */;
+			buildPhases = (
+				580044352684BFED00A69668 /* Sources */,
+				580044362684BFED00A69668 /* Frameworks */,
+				580044372684BFED00A69668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5800443B2684BFED00A69668 /* PBXTargetDependency */,
+			);
+			name = "orion-ios-schoolUITests";
+			productName = "orion-ios-schoolUITests";
+			productReference = 580044392684BFED00A69668 /* orion-ios-schoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580044102684BFEB00A69668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					580044172684BFEB00A69668 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5800442D2684BFEC00A69668 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 580044172684BFEB00A69668;
+					};
+					580044382684BFED00A69668 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 580044172684BFEB00A69668;
+					};
+				};
+			};
+			buildConfigurationList = 580044132684BFEB00A69668 /* Build configuration list for PBXProject "orion-ios-school" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5800440F2684BFEB00A69668;
+			productRefGroup = 580044192684BFEB00A69668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580044172684BFEB00A69668 /* orion-ios-school */,
+				5800442D2684BFEC00A69668 /* orion-ios-schoolTests */,
+				580044382684BFED00A69668 /* orion-ios-schoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580044162684BFEB00A69668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580044282684BFEC00A69668 /* LaunchScreen.storyboard in Resources */,
+				580044252684BFEC00A69668 /* Assets.xcassets in Resources */,
+				580044232684BFEB00A69668 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5800442C2684BFEC00A69668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580044372684BFED00A69668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580044142684BFEB00A69668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580044202684BFEB00A69668 /* ViewController.swift in Sources */,
+				5800441C2684BFEB00A69668 /* AppDelegate.swift in Sources */,
+				5800441E2684BFEB00A69668 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5800442A2684BFEC00A69668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580044332684BFEC00A69668 /* orion_ios_schoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580044352684BFED00A69668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5800443E2684BFED00A69668 /* orion_ios_schoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580044302684BFEC00A69668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580044172684BFEB00A69668 /* orion-ios-school */;
+			targetProxy = 5800442F2684BFEC00A69668 /* PBXContainerItemProxy */;
+		};
+		5800443B2684BFED00A69668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580044172684BFEB00A69668 /* orion-ios-school */;
+			targetProxy = 5800443A2684BFED00A69668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		580044212684BFEB00A69668 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580044222684BFEB00A69668 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580044262684BFEC00A69668 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580044272684BFEC00A69668 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580044402684BFED00A69668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580044412684BFED00A69668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580044432684BFED00A69668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "orion-ios-school/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexclay.orion-ios-school";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580044442684BFED00A69668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "orion-ios-school/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexclay.orion-ios-school";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		580044462684BFED00A69668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "orion-ios-schoolTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexclay.orion-ios-schoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orion-ios-school.app/orion-ios-school";
+			};
+			name = Debug;
+		};
+		580044472684BFED00A69668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "orion-ios-schoolTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexclay.orion-ios-schoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/orion-ios-school.app/orion-ios-school";
+			};
+			name = Release;
+		};
+		580044492684BFED00A69668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "orion-ios-schoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexclay.orion-ios-schoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "orion-ios-school";
+			};
+			name = Debug;
+		};
+		5800444A2684BFED00A69668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "orion-ios-schoolUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "alexclay.orion-ios-schoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "orion-ios-school";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580044132684BFEB00A69668 /* Build configuration list for PBXProject "orion-ios-school" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580044402684BFED00A69668 /* Debug */,
+				580044412684BFED00A69668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580044422684BFED00A69668 /* Build configuration list for PBXNativeTarget "orion-ios-school" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580044432684BFED00A69668 /* Debug */,
+				580044442684BFED00A69668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580044452684BFED00A69668 /* Build configuration list for PBXNativeTarget "orion-ios-schoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580044462684BFED00A69668 /* Debug */,
+				580044472684BFED00A69668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580044482684BFED00A69668 /* Build configuration list for PBXNativeTarget "orion-ios-schoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580044492684BFED00A69668 /* Debug */,
+				5800444A2684BFED00A69668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580044102684BFEB00A69668 /* Project object */;
+}
