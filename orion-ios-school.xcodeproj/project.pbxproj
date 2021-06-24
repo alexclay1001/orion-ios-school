@@ -49,6 +49,7 @@
 		580044392684BFED00A69668 /* orion-ios-schoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "orion-ios-schoolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5800443D2684BFED00A69668 /* orion_ios_schoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orion_ios_schoolUITests.swift; sourceTree = "<group>"; };
 		5800443F2684BFED00A69668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5800444B2684C01100A69668 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		5800440F2684BFEB00A69668 = {
 			isa = PBXGroup;
 			children = (
+				5800444B2684C01100A69668 /* .gitignore */,
 				5800441A2684BFEB00A69668 /* orion-ios-school */,
 				580044312684BFEC00A69668 /* orion-ios-schoolTests */,
 				5800443C2684BFED00A69668 /* orion-ios-schoolUITests */,
