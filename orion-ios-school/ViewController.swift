@@ -24,13 +24,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func pressedButton(_ sender: UIButton) {
-        var b: Int
-        if let text = userInputNum.text, let intText = Int(text) {
-            b = intText
-        } else {
-            b = 0
-        }
-        
+        let b = Int(userInputNum!.text!) ?? 0
+                
         if b > a {
             result.text = "Много"
         } else if a > b {
